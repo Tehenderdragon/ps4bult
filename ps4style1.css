@@ -110,7 +110,7 @@
      position: absolute;
     width: 55px;
     height: 55px;
-    background: url(abxy.png);
+    background: url(abxy1.png);
 }
 .custom .button.pressed{
      background-position-y: 55px;
@@ -173,7 +173,7 @@
     left: 92px;
 }
 .custom .face{
-   background: url(dpad.png);
+   background: url(dpad1.png);
     position: absolute;
 }
 .custom .face.up, .custom .face.down {
