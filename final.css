@@ -1,0 +1,267 @@
+/*BEGIN PS4 Controller Styling*/
+.controller.custom {
+    background: url(base.png);
+    height: 700px;
+    width: 1200px;
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
+}
+
+.custom.disconnected {
+    display: none;
+}
+.custom.disconnected div {
+    display: none;
+}
+
+.custom .triggers {
+    width: 598px;
+    height: 90px;
+    position: absolute;
+    left: 301.5px;
+    top: 36px;
+}
+
+.custom .trigger {
+    width: 99px;
+    height: 100%;
+    background: url(triggers.png);
+    opacity: 0;
+}
+
+.custom .trigger.left {
+    float: left;
+}
+
+.custom .trigger.right {
+    float: right;
+    background-position-x: 99px;
+}
+
+.custom .bumper {
+    width: 200px;
+    height: 45px;
+    background: url(bumper.png) no-repeat;
+    opacity: 0;
+}
+
+.custom .bumpers {
+    position: absolute;
+    width: 672px;
+    height: 23px;
+    left: 265px;
+    top: 131px;
+}
+
+.custom .bumper.pressed {
+    opacity: 1;
+}
+
+.custom .bumper.left {
+    /* -webkit-transform: rotateY(180deg); */
+    /* transform: rotateY(180deg); */
+    float: left;
+}
+
+.custom .bumper.right {
+    float: right;
+    transform: rotateY(180deg);
+}
+
+.custom .touchpad {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    left: 422px;
+    top: 74px;
+}
+
+.custom .p0{
+background-position: 0 -6px;
+}
+.custom .p1{
+background-position: 0 -28px;
+}
+.custom .p2{
+background-position: 0 -49px;
+}
+.custom .p3{
+background-position: 0 -70px;
+}*/
+.custom .arrows {
+    position: absolute;
+    width: 352px;
+    height: 46px;
+    top: 142px;
+    left: 227px;
+}
+
+.custom .back, .custom .start {
+    background: url(select.png);
+    width: 26px;
+    height: 43px;
+    opacity: 0;
+}
+.custom .start {
+    position: absolute;
+    left: 547.5px;
+    bottom: -29px;
+}
+.custom .back {
+    position: absolute;
+    left: 171.5px;
+    bottom: -29px;
+}
+
+
+.custom .back.pressed, .custom .start.pressed {
+    /* background-position-y: -21px; */
+    /* margin-top: 2px; */
+    opacity: 1;
+}
+
+.custom .back {
+    float: left;
+    /* width: 28px; */
+}
+
+.custom .start {
+    float: right;
+    /* width: 28px; */
+    background-position: 0px 0;
+}
+
+.custom .abxy {
+    position: absolute;
+    width: 170px;
+    height: 171px;
+    top: 200px;
+    left: 762px;
+}
+
+.custom .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(abxy.png);
+}
+
+.custom .button.pressed {
+    background-position-y: 55px;
+    /* margin-top: 5px; */
+}
+
+.custom .a {
+    background-position: 0 0;
+    bottom: 0px;
+    left: 58px;
+}
+
+.custom .b {
+    background-position: -57px 0;
+    top: 57px;
+    right: -3px;
+}
+
+.custom .x {
+    background-position: -113px 0;
+    top: 57px;
+}
+
+.custom .y {
+    background-position: 55px 0;
+    left: 58px;
+    bottom: 119px;
+}
+
+.custom .sticks {
+    position: absolute;
+    width: 364px;
+    height: 105px;
+    top: 344px;
+    left: 423.3px;
+}
+
+.custom .stick {
+    position: absolute;
+    background: url(sticks.png);
+    height: 94px;
+    width: 94px;
+}
+
+.custom .stick.pressed.left {
+    background-position-x: -96px;
+}
+
+.custom .stick.pressed.right {
+    background-position-x: -192px;
+}
+
+.custom .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.custom .stick.right {
+    top: calc(100% - 105px);
+    left: calc(100% - 105px);
+}
+
+.custom .dpad {
+    position: absolute;
+    width: 125px;
+    height: 126px;
+    top: 220px;
+    left: 286px;
+}
+
+.custom .face {
+    background: url(dpad.png);
+    position: absolute;
+}
+
+.custom .face.up, .custom .face.down {
+    width: 37px;
+    height: 52px;
+}
+
+.custom .face.left, .custom .face.right {
+    width: 52px;
+    height: 40px;
+}
+
+.custom .face.up {
+    left: 44px;
+    top: 0;
+    background-position: -37px 0px;
+}
+
+.custom .face.down {
+    left: 44px;
+    bottom: 0;
+    background-position: 0px 0;
+}
+
+.custom .face.left {
+    top: 45px;
+    left: 0;
+    background-position: 104px 0;
+}
+
+.custom .face.right {
+    top: 45px;
+    right: 0px;
+    background-position: 52px 0;
+}
+
+.custom .face.pressed {
+    /* margin-top: 5px; */
+    background-position-y: 52px;
+}
+
+.custom.half {
+    margin-top: -300px;
+}
+
+/*END PS4 Controller Styling*/
+
